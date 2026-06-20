@@ -3,7 +3,7 @@ Starting a new journey towards MLOps/AI engineering role. This is the main repos
 
 ## Repos 
 1. [python-exercism](https://github.com/lunatic-man/python-exercism) - Python fundamentals, work in progress
-2. [pandas-practice] - coming soon
+2. [pandas-practice]() - coming soon
 
 ## Weekly Log 
 
