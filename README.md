@@ -11,5 +11,5 @@ Starting a new journey towards MLOps/AI engineering role. This is the main repos
 - Set up Pop_OS! 24.04 dual boot, created development environment(VSCode), set up SSH to work from terminal.\
 - See [setup-notes.md](https://github.com/lunatic-man/ml-journey/blob/main/setup-notes.md) for full details.
 
-### Week 1 ()
+### Week 1 (22/6/2026 - )
 - Started Python track on exercism
