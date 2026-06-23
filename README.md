@@ -13,4 +13,4 @@ Starting a new journey towards MLOps/AI engineering role. This is the main repos
 
 ### Week 1 (22/6/2026 - )
 - Started Python track on exercism
-- Monday: Set up Exercism through CLI, solved 5 exercises, learned about docstrings and documentation, rest was revision.
+- Monday: Set up Exercism through CLI, solved 5 exercises, learned about docstrings and documentation, rest was revision, I also added concepts.md file

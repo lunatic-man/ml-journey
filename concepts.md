@@ -10,4 +10,5 @@ This is just a rough collection of all concepts that I have studied so far. The 
  - boolean operators - `and`, `or` and `not` are the three operators that can be used to manipulate boolean values
  - The output of a function can be used as the input for another function, often times in a single line. Use this property to make a clean code.
  - use the `//` operator to get integers as the result of division and `%` operator to work with the remainders.
- - Oprphaned expressions (code that compute something but do not assign or return it) are the most dangerous ones, be careful to look for them properly. 
+ - Orphaned expressions (code that compute something but do not assign or return it) are the most dangerous ones, be careful to look for them properly. 
+ - Be mindful about if/elif/else chains, don't repeat redundant conditions, avoid chains if possible, also be careful of boundary precision
