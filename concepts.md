@@ -37,3 +37,5 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `git commit -m "type: description"` - used to commit changes and to give a brief description to the commit
 - `git push -u origin main` - sets an upstream as origin so that next time after a commit, you can simply use `git push` and all changes committed to main on local will automatically get pushed to the origin branch
 - `git push origin --delete branch-name` - used to delete a branch at remote as remote is the shared source of collaboration
+- `git long --oneline` - really helpful in analysing all the commits you have made in a short format
+
