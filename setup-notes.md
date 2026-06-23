@@ -78,3 +78,21 @@ and again.
 Overall it was a learning experience, insanely satisfying, and definitely a lot faster than my first boot process. I do have more stuff to learn about, will do it later
 on, but for now, I am done.
 
+# Git useful commands and SOPs
+## Updating branch in both local and remote
+ # Rename locally
+ `git branch -m master main`
+
+ # Push new branch to remote
+ `git push origin main`
+ 
+ # Set remote tracking
+ `git push origin -u main`
+
+ # Delete old branch on remote
+ `git push origin --delete master`
+
+ # Set default branch on GitHub to main
+ # (Settings → Branches → Default branch) 
+
+Use the above sequence to rename a branch from master to main on local, then to push it to remote. After that, setup remote tracking and then go to settings and change default branch. Afterwards, delete branch on remote.
