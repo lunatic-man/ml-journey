@@ -1,14 +1,39 @@
 # Concepts
 This is just a rough collection of all concepts that I have studied so far. The explanation is in my own words and will continuously change and evolve.
 
- - venv - isolated package shelf per project 
- - variables - stores reference to data sitting in memory, can be manipulated
- - constants - stores reference to data sitting in memory, cannot be changed
- - functions - set of instructions that return some object (Always returns an object, empty ones return None object)
- - return - used to return a particular value from a function
- - docstrings - documentation that is added to a function to explain what it does and usually includes how many parameters it takes and what does it return. (enclosed between """ """).
- - boolean operators - `and`, `or` and `not` are the three operators that can be used to manipulate boolean values
- - The output of a function can be used as the input for another function, often times in a single line. Use this property to make a clean code.
- - use the `//` operator to get integers as the result of division and `%` operator to work with the remainders.
- - Orphaned expressions (code that compute something but do not assign or return it) are the most dangerous ones, be careful to look for them properly. 
- - Be mindful about if/elif/else chains, don't repeat redundant conditions, avoid chains if possible, also be careful of boundary precision
+## Python Fundamentals
+- venv - isolated storage shelf for package dependencies
+- variables - memory addresses that point to places in memory that can be manipulated, python doesn't need you to declare datatype
+- constants - memory addresses that point tot places in memory that cannot be manipulated (techincally they can, but naming of a var in all caps shows a constant which must not be touched)
+- functions - blocks of lines that give a specific object as the return. Empty functions return None object
+- return - keyword used to return objects of various datatypes at the end of the functions 
+- type conversions - narrower values get converted to broader values when doing arithmetic, eg int gets promoted to float
+- falsy values - empty string '', 0, None, all are falsy values (resolve to False) and can be used to in creating conditional statements. Or exploits it to execute more code flawlessly
+- accumulator pattern - Start with empty result, build it incrementally based on conditions, return at end 
+
+## Control Flow
+- boolean operators - operators used to compare and evalute values, output is True or False
+- if/elif/else chains - be careful when making these chains, do not add redundant code, also check bounday precision
+- boundary precision - check exactly how value at boundaries should be solved 
+
+## Functions
+- docstrings - official documentation that contains 3 parts, parameters (with datatypes), return value type and a brief of what the function does. Anything between """ """ is a docstring (multiple lines)
+- function composition - this refers to using a function's output as another function's input, or calling a function inside another function
+- DRY principle - Do not Repeat Yourself. This is very important as it removes redundant code and makes the program both small and easy to comprehend
+- orphaned expressions - expressions that neither assign a value to a variable nor return it. These are dangerous as these are one of the hardest errors to catch in the debugging
+
+## String Operations
+- string immutability - strings in python are immutable and everytime you manipulate a string, you make a new string with a new memory address
+- built-in string methods (title, endswith, strip, replace, join) - various built in methods that can be used to make string manipulation easier, so keep a track of these as time goes on
+- membership testing (tuple vs string) - instead of testing using `card in "KQJ"`, use `card in ('K', 'Q', 'J')`. The former is an example of string, the latter is the example of member testing. 
+- floor division and modulo - floor division returns the int value and modulo returns the remainder. added these because I unncessarily complicated a few solutions
+
+## Git
+- Git is basically a version control system for code. Best way I can put it, it keeps track of what changes you make to the code and why. 
+- `git clone git@github.com:username/repo-name.git` - used to create a local copy of any repo hosted remotely
+- `git status` - holy grail of everything, tells you where you are and what changes you have made, what are added to staging area and what you have committed
+- `git branch` - shows you which branch you are currently working on. very useful when you want to manipulate branches
+- `git add` - used to add any new changes to the staging area 
+- `git commit -m "type: description"` - used to commit changes and to give a brief description to the commit
+- `git push -u origin main` - sets an upstream as origin so that next time after a commit, you can simply use `git push` and all changes committed to main on local will automatically get pushed to the origin branch
+- `git push origin --delete branch-name` - used to delete a branch at remote as remote is the shared source of collaboration
