@@ -10,7 +10,8 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - type conversions - narrower values get converted to broader values when doing arithmetic, eg int gets promoted to float
 - falsy values - empty string '', 0, None, all are falsy values (resolve to False) and can be used to in creating conditional statements. Or exploits it to execute more code flawlessly
 - accumulator pattern - Start with empty result, build it incrementally based on conditions, return at end 
-
+- Boolean Variables - Add boolean variables which test and hold result of conditions to make the code more readable
+- Leap year logic - `return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)` This is an example of a single line mathematical condition, try to make as many of these as possible.
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
 - if/elif/else chains - be careful when making these chains, do not add redundant code, also check bounday precision
