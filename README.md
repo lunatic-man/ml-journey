@@ -17,4 +17,4 @@ ignores it. Important change in coding method: Stopping use of `if condition: re
 Week 2 Target: complete 11-20 exercises, focusing on lists, loops and data structures
 - See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for full in depth analysis.
 
-## Week 2 (24/6/2026 - )
+### Week 2 (24/6/2026 - )
