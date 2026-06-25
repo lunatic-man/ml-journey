@@ -16,3 +16,5 @@ Completed 10 exercises on Exercism's Python track. Key Concept: function composi
 ignores it. Important change in coding method: Stopping use of `if condition: return True else: return False` code block and using value from boolean expressions. 
 Week 2 Target: complete 11-20 exercises, focusing on lists, loops and data structures
 - See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for full in depth analysis.
+
+## Week 2 (24/6/2026 - )
