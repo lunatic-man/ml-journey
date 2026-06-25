@@ -40,3 +40,8 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `git push origin --delete branch-name` - used to delete a branch at remote as remote is the shared source of collaboration
 - `git long --oneline` - really helpful in analysing all the commits you have made in a short format
 
+## Lists
+- Even and Odd index - `list[0::2]` for getting the even index elements and `list[1::0]` for getting the odd index elements
+- `sum()` and `len()` - built in aggregators that can be used
+- `+` - list concatenation
+- Value extraction and storing of values in variables when they need to be used multiple times 
