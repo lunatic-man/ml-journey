@@ -12,6 +12,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - accumulator pattern - Start with empty result, build it incrementally based on conditions, return at end 
 - Boolean Variables - Add boolean variables which test and hold result of conditions to make the code more readable
 - Leap year logic - `return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)` This is an example of a single line mathematical condition, try to make as many of these as possible.
+
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
 - if/elif/else chains - be careful when making these chains, do not add redundant code, also check bounday precision
@@ -45,3 +46,4 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `sum()` and `len()` - built in aggregators that can be used
 - `+` - list concatenation
 - Value extraction and storing of values in variables when they need to be used multiple times 
+- `sorted()` and `list.sort()` - `sorted()` returns a sorted copy of the list without modifying the original one. `list.sort()` modifies the original list and returns `None` as the object
