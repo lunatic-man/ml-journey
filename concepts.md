@@ -14,6 +14,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - Leap year logic - `return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)` This is an example of a single line mathematical condition, try to make as many of these as possible.
 - `raise ValueError('msg')` - This raises an exception with a descriptive message for invalid input, preferred over None or -1. Check [grains](https://github.com/lunatic-man/python-exercism/blob/main/week2/grains/grains.py)
 - Comprehensions - `[transform(item) for item in collection]` and `[item for item in collection if condition]` are two comprehensions that will return a list without actually needing to go through the entire for loop and writing multiple lines of code. It is also more readable.
+- `all()` - returns `True` only if every element in an iterable satisfies the condition. `all(condition for item in collection)`
 
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
@@ -50,3 +51,6 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `+` - list concatenation
 - Value extraction and storing of values in variables when they need to be used multiple times 
 - `sorted()` and `list.sort()` - `sorted()` returns a sorted copy of the list without modifying the original one. `list.sort()` modifies the original list and returns `None` as the object
+
+## Useful Modules
+- `string.ascii_lowercase` - module for getting all the lowercase letters without needing to hardcode them.
