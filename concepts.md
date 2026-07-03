@@ -15,6 +15,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `raise ValueError('msg')` - This raises an exception with a descriptive message for invalid input, preferred over None or -1. Check [grains](https://github.com/lunatic-man/python-exercism/blob/main/week2/grains/grains.py)
 - Comprehensions - `[transform(item) for item in collection]` and `[item for item in collection if condition]` are two comprehensions that will return a list without actually needing to go through the entire for loop and writing multiple lines of code. It is also more readable.
 - `all()` - returns `True` only if every element in an iterable satisfies the condition. `all(condition for item in collection)`
+- floor division and modulo - floor division returns the int value and modulo returns the remainder. added these because I unncessarily complicated a few solutions
 
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
@@ -31,9 +32,9 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - string immutability - strings in python are immutable and everytime you manipulate a string, you make a new string with a new memory address
 - built-in string methods (title, endswith, strip, replace, join) - various built in methods that can be used to make string manipulation easier, so keep a track of these as time goes on
 - membership testing (tuple vs string) - instead of testing using `card in "KQJ"`, use `card in ('K', 'Q', 'J')`. The former is an example of string, the latter is the example of member testing. 
-- floor division and modulo - floor division returns the int value and modulo returns the remainder. added these because I unncessarily complicated a few solutions
 - Strings are fundamentally different from other data types, because even after being declared as a variable, they behave as constants. When any function is called on a string, a new string is returned, without the original one changing.
-
+- `isaplha()` - returns boolean on whether a character is an alphabet or not. 
+- `isdigit()` - returns bool on whether a character is a number or not.
 ## Git
 - Git is basically a version control system for code. Best way I can put it, it keeps track of what changes you make to the code and why. 
 - `git clone git@github.com:username/repo-name.git` - used to create a local copy of any repo hosted remotely
@@ -54,3 +55,8 @@ This is just a rough collection of all concepts that I have studied so far. The 
 
 ## Useful Modules
 - `string.ascii_lowercase` - module for getting all the lowercase letters without needing to hardcode them.
+
+
+
+## Sets
+- Sets automatically remove duplicates. Easy to check for duplicates in a string.
