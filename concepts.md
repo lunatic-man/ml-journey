@@ -29,6 +29,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - built-in string methods (title, endswith, strip, replace, join) - various built in methods that can be used to make string manipulation easier, so keep a track of these as time goes on
 - membership testing (tuple vs string) - instead of testing using `card in "KQJ"`, use `card in ('K', 'Q', 'J')`. The former is an example of string, the latter is the example of member testing. 
 - floor division and modulo - floor division returns the int value and modulo returns the remainder. added these because I unncessarily complicated a few solutions
+- Strings are fundamentally different from other data types, because even after being declared as a variable, they behave as constants. When any function is called on a string, a new string is returned, without the original one changing.
 
 ## Git
 - Git is basically a version control system for code. Best way I can put it, it keeps track of what changes you make to the code and why. 
@@ -39,10 +40,10 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `git commit -m "type: description"` - used to commit changes and to give a brief description to the commit
 - `git push -u origin main` - sets an upstream as origin so that next time after a commit, you can simply use `git push` and all changes committed to main on local will automatically get pushed to the origin branch
 - `git push origin --delete branch-name` - used to delete a branch at remote as remote is the shared source of collaboration
-- `git long --oneline` - really helpful in analysing all the commits you have made in a short format
+- `git log --oneline` - really helpful in analysing all the commits you have made in a short format
 
 ## Lists
-- Even and Odd index - `list[0::2]` for getting the even index elements and `list[1::0]` for getting the odd index elements
+- Even and Odd index - `list[0::2]` for getting the even index elements and `list[1::2]` for getting the odd index elements
 - `sum()` and `len()` - built in aggregators that can be used
 - `+` - list concatenation
 - Value extraction and storing of values in variables when they need to be used multiple times 
