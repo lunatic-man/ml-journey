@@ -13,6 +13,8 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - Boolean Variables - Add boolean variables which test and hold result of conditions to make the code more readable
 - Leap year logic - `return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)` This is an example of a single line mathematical condition, try to make as many of these as possible.
 - `raise ValueError('msg')` - This raises an exception with a descriptive message for invalid input, preferred over None or -1. Check [grains](https://github.com/lunatic-man/python-exercism/blob/main/week2/grains/grains.py)
+- Comprehensions - `[transform(item) for item in collection]` and `[item for item in collection if condition]` are two comprehensions that will return a list without actually needing to go through the entire for loop and writing multiple lines of code. It is also more readable.
+
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
 - if/elif/else chains - be careful when making these chains, do not add redundant code, also check bounday precision
