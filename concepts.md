@@ -16,7 +16,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - Comprehensions - `[transform(item) for item in collection]` and `[item for item in collection if condition]` are two comprehensions that will return a list without actually needing to go through the entire for loop and writing multiple lines of code. It is also more readable.
 - `all()` - returns `True` only if every element in an iterable satisfies the condition. `all(condition for item in collection)`
 - floor division and modulo - floor division returns the int value and modulo returns the remainder. added these because I unncessarily complicated a few solutions
-- Fail Fast Patter - Validate inputs at the top of the function, before it even starts to ensure that computational power is not wasted
+- Fail Fast Pattern - Validate inputs at the top of the function, before it even starts to ensure that computational power is not wasted
 
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
