@@ -61,6 +61,9 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `string.ascii_lowercase` - module for getting all the lowercase letters without needing to hardcode them.
 
 
-
 ## Sets
 - Sets automatically remove duplicates. Easy to check for duplicates in a string.
+
+## Dictionaries
+- `dict = {key:value}` - Basic way of defining a dictionary
+- `dict[key]` - looking up values using key, oftentimes better than an if/else chain
