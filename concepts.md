@@ -35,6 +35,10 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - Strings are fundamentally different from other data types, because even after being declared as a variable, they behave as constants. When any function is called on a string, a new string is returned, without the original one changing.
 - `isaplha()` - returns boolean on whether a character is an alphabet or not. 
 - `isdigit()` - returns bool on whether a character is a number or not.
+- `ord()` - used to get the decimal value of an ASCII char
+- `chr()` - converts a decimal value to ASCII equivalent
+
+
 ## Git
 - Git is basically a version control system for code. Best way I can put it, it keeps track of what changes you make to the code and why. 
 - `git clone git@github.com:username/repo-name.git` - used to create a local copy of any repo hosted remotely
