@@ -16,6 +16,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - Comprehensions - `[transform(item) for item in collection]` and `[item for item in collection if condition]` are two comprehensions that will return a list without actually needing to go through the entire for loop and writing multiple lines of code. It is also more readable.
 - `all()` - returns `True` only if every element in an iterable satisfies the condition. `all(condition for item in collection)`
 - floor division and modulo - floor division returns the int value and modulo returns the remainder. added these because I unncessarily complicated a few solutions
+- Fail Fast Patter - Validate inputs at the top of the function, before it even starts to ensure that computational power is not wasted
 
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
@@ -33,7 +34,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - built-in string methods (title, endswith, strip, replace, join) - various built in methods that can be used to make string manipulation easier, so keep a track of these as time goes on
 - membership testing (tuple vs string) - instead of testing using `card in "KQJ"`, use `card in ('K', 'Q', 'J')`. The former is an example of string, the latter is the example of member testing. 
 - Strings are fundamentally different from other data types, because even after being declared as a variable, they behave as constants. When any function is called on a string, a new string is returned, without the original one changing.
-- `isaplha()` - returns boolean on whether a character is an alphabet or not. 
+- `isalpha()` - returns boolean on whether a character is an alphabet or not. 
 - `isdigit()` - returns bool on whether a character is a number or not.
 - `ord()` - used to get the decimal value of an ASCII char
 - `chr()` - converts a decimal value to ASCII equivalent
