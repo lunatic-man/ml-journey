@@ -22,3 +22,6 @@ Completed 10 exercises on Exercism's Python track. Key Concept: Lists, list hand
 Important changes: Able to make conditionals single line (as compared to previous week), DRY principle being followed correctly, function composition is now second nature.
 Week 3 Target: complete 21-30 exercises, being exploring sets, dictionaries. Also complete looping.
 - See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis. 
+
+### Week 3 (3/7/2026 - )
+Revised string exercises. On track to complete Dictionaries and sets.
