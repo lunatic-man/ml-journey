@@ -66,6 +66,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 
 ## Sets
 - Sets automatically remove duplicates. Easy to check for duplicates in a string.
+- `empty_set = set()` - Since we use `{}` to declare empty dictionary
 
 ## Dictionaries
 - `dict = {key:value}` - Basic way of defining a dictionary
