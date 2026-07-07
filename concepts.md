@@ -69,6 +69,9 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `dict = {key:value}` - Basic way of defining a dictionary
 - `dict[key]` - looking up values using key, oftentimes better than an if/else chain
 - `dict.keys()` / `dict.values()` - returns all the keys / values. use `list(dict.keys())` to get the standard list results
+- `dict.get(key, default)` - this method helps avoid KeyError which can arise when a key does not exist in the dictionary
+- `dict.pop(key, default)` - Same as above, prevents KeyError from coming up, and `.pop()` removes key-value pair from the dictionary
+- By default, using `for item in dict` returns keys as item. You can use `for keys, value in dict.items()` to get both the keys and values simultaneously
 
 ## Tuples 
 - Tuples are immutable, they cannot be modified in place, new tuples must be created
