@@ -17,6 +17,8 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `all()` - returns `True` only if every element in an iterable satisfies the condition. `all(condition for item in collection)`
 - floor division and modulo - floor division returns the int value and modulo returns the remainder. added these because I unncessarily complicated a few solutions
 - Fail Fast Pattern - Validate inputs at the top of the function, before it even starts to ensure that computational power is not wasted
+- Use `''` to declare string variables, `()` to declare tuples, `{key:value}` to declare dictionaires (`{}` declares empty dict), `[]` to declare lists and `{value1, value2, value3}` to declare sets (`empty_set = set()` declares empty set).
+- For any datatype, `name()` is the general trend to call a constructor to form the data.
 
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
