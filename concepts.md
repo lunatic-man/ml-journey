@@ -68,6 +68,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 ## Dictionaries
 - `dict = {key:value}` - Basic way of defining a dictionary
 - `dict[key]` - looking up values using key, oftentimes better than an if/else chain
+- `dict.keys()` / `dict.values()` - returns all the keys / values. use `list(dict.keys())` to get the standard list results
 
 ## Tuples 
 - Tuples are immutable, they cannot be modified in place, new tuples must be created
