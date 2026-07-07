@@ -75,6 +75,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `dict.get(key, default)` - this method helps avoid KeyError which can arise when a key does not exist in the dictionary
 - `dict.pop(key, default)` - Same as above, prevents KeyError from coming up, and `.pop()` removes key-value pair from the dictionary
 - By default, using `for item in dict` returns keys as item. You can use `for keys, value in dict.items()` to get both the keys and values simultaneously
+- Using `dict.pop()` when iterating over a dictionary is not recommended and will give an error. Instead it is better to use comprehensions to get the data individually.
 
 ## Tuples 
 - Tuples are immutable, they cannot be modified in place, new tuples must be created
