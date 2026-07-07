@@ -38,7 +38,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `isdigit()` - returns bool on whether a character is a number or not.
 - `ord()` - used to get the decimal value of an ASCII char
 - `chr()` - converts a decimal value to ASCII equivalent
-
+- `''.join()` - this only joins two strings together with `''` as a seperator between them. 
 
 ## Git
 - Git is basically a version control system for code. Best way I can put it, it keeps track of what changes you make to the code and why. 
@@ -68,3 +68,8 @@ This is just a rough collection of all concepts that I have studied so far. The 
 ## Dictionaries
 - `dict = {key:value}` - Basic way of defining a dictionary
 - `dict[key]` - looking up values using key, oftentimes better than an if/else chain
+
+## Tuples 
+- Tuples are immutable, they cannot be modified in place, new tuples must be created
+- Use slice concatenation to remove an element from the tuple
+- `str(tuple)` - converts the tuple to a string, along with parentheses and commas
