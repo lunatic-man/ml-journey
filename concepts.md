@@ -1,6 +1,7 @@
 # Concepts
 This is just a rough collection of all concepts that I have studied so far. The explanation is in my own words and will continuously change and evolve.
 
+
 ## Python Fundamentals
 - venv - isolated storage shelf for package dependencies
 - variables - memory addresses that point to places in memory that can be manipulated, python doesn't need you to declare datatype
@@ -20,16 +21,19 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - Use `''` to declare string variables, `()` to declare tuples, `{key:value}` to declare dictionaires (`{}` declares empty dict), `[]` to declare lists and `{value1, value2, value3}` to declare sets (`empty_set = set()` declares empty set).
 - For any datatype, `name()` is the general trend to call a constructor to form the data.
 
+
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
 - if/elif/else chains - be careful when making these chains, do not add redundant code, also check bounday precision
 - boundary precision - check exactly how value at boundaries should be solved 
+
 
 ## Functions
 - docstrings - official documentation that contains 3 parts, parameters (with datatypes), return value type and a brief of what the function does. Anything between """ """ is a docstring (multiple lines)
 - function composition - this refers to using a function's output as another function's input, or calling a function inside another function
 - DRY principle - Do not Repeat Yourself. This is very important as it removes redundant code and makes the program both small and easy to comprehend
 - orphaned expressions - expressions that neither assign a value to a variable nor return it. These are dangerous as these are one of the hardest errors to catch in the debugging
+
 
 ## String Operations
 - string immutability - strings in python are immutable and everytime you manipulate a string, you make a new string with a new memory address
@@ -42,6 +46,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `chr()` - converts a decimal value to ASCII equivalent
 - `''.join()` - this only joins two strings together with `''` as a seperator between them. 
 
+
 ## Git
 - Git is basically a version control system for code. Best way I can put it, it keeps track of what changes you make to the code and why. 
 - `git clone git@github.com:username/repo-name.git` - used to create a local copy of any repo hosted remotely
@@ -53,12 +58,17 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `git push origin --delete branch-name` - used to delete a branch at remote as remote is the shared source of collaboration
 - `git log --oneline` - really helpful in analysing all the commits you have made in a short format
 
+
 ## Lists
 - Even and Odd index - `list[0::2]` for getting the even index elements and `list[1::2]` for getting the odd index elements
 - `sum()` and `len()` - built in aggregators that can be used
 - `+` - list concatenation
 - Value extraction and storing of values in variables when they need to be used multiple times 
 - `sorted()` and `list.sort()` - `sorted()` returns a sorted copy of the list without modifying the original one. `list.sort()` modifies the original list and returns `None` as the object
+- `list1.exetend(list2)` - Combines both the lists to make a single list, but it returns `None` as the result.
+- `list1.append(list2)` - This will append a the second list as a single item in the list1 and will also return `None` as the result.
+- `.append()` - It will add the item to the list, but it will not return the list with added item and instead returns `None`. This means `name = list.append('xyz')` will have name set to `None`.
+
 
 ## Useful Modules
 - `string.ascii_lowercase` - module for getting all the lowercase letters without needing to hardcode them.
@@ -67,6 +77,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 ## Sets
 - Sets automatically remove duplicates. Easy to check for duplicates in a string.
 - `empty_set = set()` - Since we use `{}` to declare empty dictionary
+
 
 ## Dictionaries
 - `dict = {key:value}` - Basic way of defining a dictionary
