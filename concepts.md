@@ -87,6 +87,8 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `dict.pop(key, default)` - Same as above, prevents KeyError from coming up, and `.pop()` removes key-value pair from the dictionary
 - By default, using `for item in dict` returns keys as item. You can use `for keys, value in dict.items()` to get both the keys and values simultaneously
 - Using `dict.pop()` when iterating over a dictionary is not recommended and will give an error. Instead it is better to use comprehensions to get the data individually.
+- `.fromkeys()` - This is used to make any iterable a key collection for the dictionary. `dict.fromkeys(list, default)` will make the dict with all the keys having a default value.
+- `reversed(dict.keys())` - This is used to just reverse the order of keys and start from the last input. Keep in mind, this is different from `sorted(dict.keys(), reverse=True)`. `reversed()` returns a reverse iterator.
 
 ## Tuples 
 - Tuples are immutable, they cannot be modified in place, new tuples must be created
