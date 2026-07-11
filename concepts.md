@@ -44,7 +44,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `isdigit()` - returns bool on whether a character is a number or not.
 - `ord()` - used to get the decimal value of an ASCII char
 - `chr()` - converts a decimal value to ASCII equivalent
-- `''.join()` - this only joins two strings together with `''` as a seperator between them. 
+- `''.join(iterable)` - this joins all the elements of the iterable together into a single string with `''` as a seperator between them. 
 
 
 ## Git
@@ -65,7 +65,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `+` - list concatenation
 - Value extraction and storing of values in variables when they need to be used multiple times 
 - `sorted()` and `list.sort()` - `sorted()` returns a sorted copy of the list without modifying the original one. `list.sort()` modifies the original list and returns `None` as the object
-- `list1.exetend(list2)` - Combines both the lists to make a single list, but it returns `None` as the result.
+- `list1.extend(list2)` - Combines both the lists to make a single list, but it returns `None` as the result.
 - `list1.append(list2)` - This will append a the second list as a single item in the list1 and will also return `None` as the result.
 - `.append()` - It will add the item to the list, but it will not return the list with added item and instead returns `None`. This means `name = list.append('xyz')` will have name set to `None`.
 
