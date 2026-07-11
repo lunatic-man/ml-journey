@@ -28,3 +28,6 @@ Completed 10 exercises on Exercism's Python track. Key Concept: Dictionaries, ac
 Most valuable debugging: String character handling using ASCII, comprehensions with conditions and taking note of what every expression returns. 
 Important changes: Capable of handling for loops using comprehensions, newer knowledge on strings, taking care of what an assignment returns and stores.
 - See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis.
+
+### Week 4 (Target Date: 13/7/2026 - 19/7/2026 :: Actual Date: )
+Working on finishing sets. Stay Tuned :) 
