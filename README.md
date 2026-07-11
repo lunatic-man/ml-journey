@@ -23,5 +23,8 @@ Important changes: Able to make conditionals single line (as compared to previou
 Week 3 Target: complete 21-30 exercises, being exploring sets, dictionaries. Also complete looping.
 - See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis. 
 
-### Week 3 (Target Date: 6/7/2026 - 12/7/2026 :: Actual Date: 3/7/2026 - )
-Revised string exercises. On track to complete Dictionaries and sets.
+### Week 3 (Target Date: 6/7/2026 - 12/7/2026 :: Actual Date: 3/7/2026 - 11/7/2026)
+Completed 10 exercises on Exercism's Python track. Key Concept: Dictionaries, accessing keys and values, comprehensions, useful modules of string class, modulo for wraparound cases, joining two lists and two dictionaries. 
+Most valuable debugging: String character handling using ASCII, comprehensions with conditions and taking note of what every expression returns. 
+Important changes: Capable of handling for loops using comprehensions, newer knowledge on strings, taking care of what an assignment returns and stores.
+- See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis.
