@@ -45,7 +45,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `ord()` - used to get the decimal value of an ASCII char
 - `chr()` - converts a decimal value to ASCII equivalent
 - `''.join(iterable)` - this joins all the elements of the iterable together into a single string with `''` as a seperator between them. 
-
+- Anagram Detection - Two words are anagrams if `sorted(word1.lower()) == sorted(word2.lower())`
 
 ## Git
 - Git is basically a version control system for code. Best way I can put it, it keeps track of what changes you make to the code and why. 
