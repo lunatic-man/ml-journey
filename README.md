@@ -36,5 +36,5 @@ Important changes: Will use zip instead of using for loop and if to compare each
 and handle multiple sets
 - See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis.
 
-### Week 5 (Target Date: 20/7/2026 - 26/7/2027 :: Actual Date : Yet to start)
+### Week 5 (Target Date: 20/7/2026 - 26/7/2026 :: Actual Date : Yet to start)
 Will add when solved
