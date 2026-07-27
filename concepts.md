@@ -24,7 +24,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - `isinstance(name, data_type)` - Used to check if a particular object is a type of a class or not
 - Remember to use Recursion when necessary, this will help you in saving a lot of time trying to write code
 - An accumulator is just a variable that stores the current value of the computation. Remember to not add to the accumulator, but rather to overwrite it in every iteration.
-
+- A default value can be assigned to any argument that is passed to the function. `def func(parameter=default): `. This is going to be incredibly useful going ahead.
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
 - if/elif/else chains - be careful when making these chains, do not add redundant code, also check bounday precision
