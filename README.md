@@ -29,5 +29,12 @@ Most valuable debugging: String character handling using ASCII, comprehensions w
 Important changes: Capable of handling for loops using comprehensions, newer knowledge on strings, taking care of what an assignment returns and stores.
 - See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis.
 
-### Week 4 (Target Date: 13/7/2026 - 19/7/2026 :: Actual Date: )
-Working on finishing sets. Stay Tuned :) 
+### Week 4 (Target Date: 13/7/2026 - 19/7/2026 :: Actual Date: 26/7/2026 - 27/7/2026)
+Completed 10 exercises on Exercism's Python track. Key Concept: Binary Search, `sorted()` usage to compare strings, usage of `extend()` and recursion for making lists, sets. Most valuable debugging: understanding of what
+sets are asked for and how to make them, understanding boundaries in binary searches, use of `zip()` to handle elementwise operations.
+Important changes: Will use zip instead of using for loop and if to compare each element(provided the two iterables are equal in length), `sorted()` incorporation in comparisons, use of sets to remove duplicates
+and handle multiple sets
+- See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis.
+
+### Week 5 (Target Date: 20/7/2026 - 26/7/2027 :: Actual Date : Yet to start)
+Will add when solved
