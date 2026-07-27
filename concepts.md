@@ -21,7 +21,8 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - Use `''` to declare string variables, `()` to declare tuples, `{key:value}` to declare dictionaires (`{}` declares empty dict), `[]` to declare lists and `{value1, value2, value3}` to declare sets (`empty_set = set()` declares empty set).
 - For any datatype, `name()` is the general trend to call a constructor to form the data.
 - `zip()` - This function combines the elements from two or more iterables based on index positions. It gives a single iterator of tuples that can be converted to lists. Returns zip object.
-
+- `isinstance(name, data_type)` - Used to check if a particular object is a type of a class or not
+- Remember to use Recursion when necessary, this will help you in saving a lot of time trying to write code
 ## Control Flow
 - boolean operators - operators used to compare and evalute values, output is True or False
 - if/elif/else chains - be careful when making these chains, do not add redundant code, also check bounday precision
