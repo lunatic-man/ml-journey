@@ -97,3 +97,7 @@ This is just a rough collection of all concepts that I have studied so far. The 
 - Tuples are immutable, they cannot be modified in place, new tuples must be created
 - Use slice concatenation to remove an element from the tuple
 - `str(tuple)` - converts the tuple to a string, along with parentheses and commas
+
+
+## Algorithms
+- `foldl/foldr` - applies a function cumulatively to a sequence collapsing on a single value. `foldl` goes from left to right, while `foldr` goes from right to left
