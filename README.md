@@ -36,5 +36,12 @@ Important changes: Will use zip instead of using for loop and if to compare each
 and handle multiple sets
 - See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis.
 
-### Week 5 (Target Date: 20/7/2026 - 26/7/2026 :: Actual Date : Yet to start)
-Will add when solved
+### Week 5 (Target Date: 20/7/2026 - 26/7/2026 :: Actual Date : 27/07/2026 - 29/07/2026)
+Completed 10 exercises on Exercism's Python track. Key Concept: Default values of parameters in functions, window creation to compare lists of unequal lengths, finding split points, using lists as stacks for finding pairs,
+making own list operations from basic length() operation, double mapping for atbash. Most Valuable Debugging: The fundamental understanding of list operations, importance of keeping track of index when running a loop, 
+dictionary functions revision. 
+Important changes: confident in handling dictionary patterns, using lists to create dictionaries efficiently, still wobbly in string manipulation
+- See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis. 
+
+### Week 6 (Target Date: 27/07/2026 - 03/08/2026 :: Actual Date: Yet to start)
+Will work on Classes and OOP going ahead + string manipulation to be made stronger
