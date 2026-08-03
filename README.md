@@ -43,5 +43,8 @@ dictionary functions revision.
 Important changes: confident in handling dictionary patterns, using lists to create dictionaries efficiently, still wobbly in string manipulation
 - See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis. 
 
-### Week 6 (Target Date: 27/07/2026 - 03/08/2026 :: Actual Date: Yet to start)
-Will work on Classes and OOP going ahead + string manipulation to be made stronger
+### Week 6 (Target Date: 27/07/2026 - 02/08/2026 :: Actual Date: 31/07/2026 - 03/08/2026)
+Completed 10 exercise on Exercism's Python track. Key Concepts: Classes and how similar/different they are from Java, use of lists to create symmetric structures, use of pre-existing modules to solve problems. Most 
+valuable debugging: learning how to trace error for classes, learnt to look for modules before desigining own code, use two seperate lists together to create a good string, use dictionary values as lists for problems. 
+Important changes: learned how to use classes to solve problems, learned important differences between Library, packages, modules, string manipulation is getting slightly better, but still annoying
+- See [concepts.md](https://github.com/lunatic-man/ml-journey/blob/main/concepts.md) for conceptual analysis. 
