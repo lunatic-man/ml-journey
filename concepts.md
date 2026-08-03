@@ -101,3 +101,16 @@ This is just a rough collection of all concepts that I have studied so far. The 
 
 ## Algorithms
 - `foldl/foldr` - applies a function cumulatively to a sequence collapsing on a single value. `foldl` goes from left to right, while `foldr` goes from right to left
+
+
+## Classes 
+- Classes are majorly like Java, but different in syntax.
+- `__init__()` - Constructor equivalent for python, every class should have this, otherwise python provides a default one that does nothing
+- Declare variables for the whole class right after declaring class
+- `class MyClass(ParentClass)` - used to denote that `MyClass` is a subclass of `ParentClass`
+- `self.variable` - used to create or access a variable unique to each instance inside the function
+- Every function in a class mandatorily takes `self` as the first parameter and it is also passed as the first parameter in `__init__()`
+- `self` keyword is automatically added when making a new object, do not need to call it again, python handles it, same for functions
+- `pass` - used to define a function whose functionality will be added later
+- `super().__init__()` - calls the constructor of the parent class so that the child can inherit the characteristics 
+- methods are just functions defined in a class 
